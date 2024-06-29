@@ -247,6 +247,133 @@ main button:hover {
 .last{
     color: #555;
 }
+.membership {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.membership h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.membership h2 span{
+    color:#a736d4;
+}
+
+.membership .smile {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.membership .smile img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.membership .smile h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.membership .smile p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.membership .button button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    color: #fff;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+    background-color: #a736d4;
+}
+
+
+.FAQ {
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+.FAQ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#555;
+    font-size: 40px;
+}
+
+.mainfaq {
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    display:flexbox;
+}
+
+.innerfaq, .mainfaq > div {
+    
+    margin-bottom: 20px;
+}
+.innerfaq {
+    display: grid;
+}
+
+.h3 h3 {
+    
+    color: black;
+    
+}
+.par {
+    background-color: #fff;
+    color: black;
+    
+    margin-top: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    .innerfaq, .mainfaq > div {
+        width: 100%;
+    }
+}
+footer{
+    padding: 2rem 7%;
+    background-color: rgb(3, 3, 95);
+}
+.mainfooter{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.innerfooter{
+    flex: 1 1 200px;
+    text-align: center;
+
+}
+.icons{
+    color: black;
+    
+    
+    font-size: 20px;
+}
+
+
+
 
 
 
