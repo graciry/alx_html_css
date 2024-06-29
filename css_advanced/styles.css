@@ -147,7 +147,106 @@ main button:hover {
     color: white;
     text-align: center;
 }
+.quote{
+    width: 100%;
+    min-height: 40vh;
+    background-color:#a736d4;
+    align-items: center;
+    display: inline-flex;
+}
+.image{
+    align-items: center;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 2rem;
+}
+.para{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 100px;
+    font-size: 20px;
 
+}
+.video {
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.video h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.video > div {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+}
+
+.video h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.video p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.video > div > div {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.video > div > div img {
+    max-width: 30px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.video > div > div h4 {
+    font-size: 18px;
+    color:#a736d4;
+}
+
+.video > div > div + div {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.video > div > div + div > div {
+    margin-right: 5px;
+}
+
+.video > div > div + div p {
+    margin-left: auto;
+    font-size: 14px;
+    color: black;
+}
+
+.fa-solid.fa-star {
+    color:#a736d4;
+}
+.last{
+    color: #555;
+}
 
 
 
